@@ -1,0 +1,15 @@
+# Production dependencies for SWaT Intrusion Detection System
+# Core ML and data processing
+pandas==2.3.3
+numpy==2.3.4
+scikit-learn==1.7.2
+imbalanced-learn==0.14.0
+xgboost==3.1.1
+
+# Web framework
+fastapi==0.121.1
+uvicorn[standard]==0.38.0
+pydantic==2.12.4
+
+# HTTP client (for testing)
+httpx==0.28.1

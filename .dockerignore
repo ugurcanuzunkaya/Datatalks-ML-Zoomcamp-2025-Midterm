@@ -1,0 +1,49 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+notebooks/
+
+# Data files (not needed in container, except model artifacts)
+merged.csv
+
+# Source files not needed in production
+src/train.py
+tests/
+scripts/
+
+# Documentation
+README.md
+tasklist.md
+docs/
+LICENSE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package managers
+uv.lock
+.python-version
+
+# Ruff cache
+.ruff_cache/
+
+# MacOS
+.DS_Store
